@@ -307,7 +307,6 @@ button {
 }
  
 .mob-link {
-    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -352,5 +351,90 @@ button {
 @media screen and (min-width: 768px) {
     .mob-menu {
         display: none;
+    }
+}
+
+/*section1*/
+.banner {
+    max-width: 320px;
+    height: 432px;
+    padding: 72px 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2e2f42;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mob-hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@media (min-resoluton: 2x) {
+    .banner {
+        background-image: url(../images/mob-hero@2x.jpg);
+    }
+}
+
+.banner-title {
+    max-width: 216px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 72px;
+}
+
+.banner-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4D5AE5;
+    border-radius: 4px;
+    padding: 16px 32px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width: 768px) {
+    .banner {
+        max-width: 768px;
+        height: 436px;
+        padding: 112px 0;
+        background-image: 
+        linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/tab-hero.jpg);
+        }
+    
+    .banner-title {
+        max-width: 496px;
+        font-size: 56px;
+        line-height: 1.07;
+        margin-bottom: 36px;
+        }
+}
+
+
+@media screen and (min-width: 1158px) {
+    .banner {
+        max-width: 1440px;
+        height: 600px;
+        padding: 188px 0;
+        background-image: 
+        linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/desk-hero.jpg);
+    }
+
+    .banner-title {
+        margin-bottom: 48px;
     }
 }

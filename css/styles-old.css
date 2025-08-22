@@ -1,46 +1,4 @@
 /*section1*/
-.banner {
-    padding: 188px 0;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #2e2f42;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
-    max-width: 1440px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.banner-title {
-        max-width: 496px;
-        font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #ffffff;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 48px;
-    }
-
-.banner-button {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    min-width: 169px;
-    height: 56px;
-    border: none;
-    background-color: #4D5AE5;
-    border-radius: 4px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    cursor: pointer;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .banner-button:hover,
 .banner-button:focus,
 .social-link:hover,

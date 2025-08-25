@@ -791,8 +791,16 @@ button {
     gap: 16px;
 }
 
+.footer-email-wrap {
+    max-width: 288px;
+    height: 136px;
+}
+
 .footer-email {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 16px;
 }
 
@@ -812,6 +820,29 @@ button {
 
 .footer-email-link::placeholder {
     color: white;
+}
+
+.footer-button {
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+}
+
+.footer-button-send {
+    margin-left: 16px;
+    fill: #f4f4fd;
 }
 
 @media screen and (min-width: 768px) {
